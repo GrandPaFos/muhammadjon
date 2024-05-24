@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.nav{
+    background: #3E8989;
+    padding: 10px;
+}
+.nav__logoo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.nav__link{
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.nav__h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav__inp{
+    width: 216px;
+    height: 35px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 10px;
+    gap: -10px;
+    border: none;
+    outline: none;
+}
+.nav__btn{
+    width: 74px;
+    height: 35px;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    outline: none;
+    margin-left: -6px;
+    color: #295E5E;
+    
+    
+}
+.main__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    background-image: url(./pic\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section__h11{
+    font-family: Rubik;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+.section__text{
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    
+}
+.section__links{
+    width: 150px;
+    height: 50px;
+    background-color: #B4436C;
+    color: white;
+    border-radius: 20px;
+    padding: 25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.main__pp{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color:  #B4436C;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 15px;
+}
+.header_{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #3E8989;
+
+}
+.header__section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.section__text_{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 400px;
+}
+
+
+.main__img{
+    width: 263px;
+    height: 300px;
+    background-color: #EFEFEF;
+
+}
+.main__h1{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.41px;
+    text-align: center;
+    color: #3E8989;
+}
+.main__titlee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.main__logo{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    background: #EFEFEF;
+    width: 263px;
+    height: 359px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.main__p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    
+}
+.main__Ps{
+    color: #B4436C;
+
+}
+.mainh22{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.41px;
+    text-align: left;
+    color: #3E8989;
+    margin-top: 20px;
+}
+.main__boxx{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.main__ps{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: left;
+    width: 300px;
+    margin-top: 29px;
+}
+.mian__h44{
+    margin-top: 45px;
+}
+.main__{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: left;
+}
+.main__h7{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: left;
+    margin-top: 20px;
+}
+.footer{
+    background-color:  #3E8989; 
+    padding: 20px;
+    margin-top: 55px;
+}
+.footer__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+       color: #fff;
+}
+.footer__link{
+    display: flex;
+    align-items: center;
+}
+.footer__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #fff;
+    
+}
+
+
